@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: hsla(271, 87%, 59%, 0.784);
+    font-family: monospace;
+}
+.card {
+    filter: drop-shadow(10px 7px 10px black);
+    max-width: 400px;
+    text-align: center;
+    background-color: hsl(159, 38%, 61%);
+    border-radius: 10px;
+}
+img {
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 10px 7px 20px hsla(271, 87%, 59%, 0.784);
+}
+.name {
+    color: hsl(0, 0%, 15%);
+    margin: 10px 0 10px;
+}
+.the-gratest, .link, .explanation {
+    color: hsl(0, 0%, 30%);
+    margin-top: 20px;
+}
+
+.clickable-article, .clickable-article-two {
+    color: hsl(0, 0%, 4%);
+}
+.article-content, .article-two {
+    margin: 50px 20px 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: hsl(204, 51%, 36%);
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
